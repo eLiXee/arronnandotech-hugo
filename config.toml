@@ -1,0 +1,208 @@
+# Page settings
+
+baseurl = "http://www.arronmayers.com"
+languageCode = "en-us"
+title = "Arron Mayers Resume"
+theme = "hugo-orbit-theme"
+googleAnalytics = "UA-XXXXXXX-Y"
+
+# Do not build files for websites. Need them? Set to false
+disableRSS = true
+disableSitemap = true
+disable404 = true
+
+[params]
+
+# Meta
+    description = "Hugo Responsive Resume/CV Theme for Developers"
+    author = "Arron Mayers"
+
+# Theme styles
+
+    # The original template comes with 6 colour schemes. You may choose styles below.
+    # "styles.css", "styles-2.css", "styles-3.css", "styles-4.css", "styles-5.css", "styles-6.css"
+    # are available. Also the source LESS files are included so
+    # it’s quick and easy to change the styling and colour scheme.
+
+    styles = "styles.css"
+
+# Sidebar sections
+
+    # Profile section
+    [params.profile]
+        name = "Arron Mayers"
+        tagline = "Full Stack Developer"
+        avatar = "profile.png"
+
+    # Contact section
+    [params.contact]
+        enable = true
+
+        [[params.contact.list]]
+        class = "email"
+        icon = "fa-envelope"
+        url = "mailto: arron@nandotech.com"
+        title = "arron@nandotech.com"
+
+        [[params.contact.list]]
+        class = "phone"
+        icon = "fa-phone"
+        url = "tel:9088398108"
+        title = "908-839-8208"
+
+        [[params.contact.list]]
+        class = "website"
+        icon = "fa-globe"
+        url = "//nandotech.com"
+        title = "nandotech.com"
+
+        [[params.contact.list]]
+        class = "linkedin"
+        icon = "fa-linkedin"
+        url = "//linkedin.com/in/arronmayers"
+        title = "@arronmayers"
+
+        [[params.contact.list]]
+        class = "github"
+        icon = "fa-github"
+        url = "//github.com/arronnandotech"
+        title = "arronnandotech"
+
+        [[params.contact.list]]
+        class = "twitter"
+        icon = "fa-twitter"
+        url = "//twitter.com/username"
+        title = "@arronmayers"
+
+    # Education section
+    [params.education]
+        enable = true
+        title = "Education"
+
+        [[params.education.list]]
+        degree = "MSc in Computer Science"
+        college = "University of London"
+        dates = "2006 - 2010"
+
+        [[params.education.list]]
+        degree = "BSc in Applied Mathematics"
+        college = "Bristol University"
+        dates = "2007 - 2011"
+
+    # Languages section
+    [params.languages]
+        enable = true
+        title = "Languages"
+
+        [[params.languages.list]]
+        language = "English"
+        level = "Native"
+
+        [[params.languages.list]]
+        language = "French"
+        level = "Professional"
+
+        [[params.languages.list]]
+        language = "Russian"
+        level = "Professional"
+
+    # Interests section
+    [params.interests]
+        enable = true
+        title = "Interests"
+
+        [[params.interests.list]]
+        interest = "Scuba Diving"
+
+        [[params.interests.list]]
+        interest = "Lifting"
+
+        [[params.interests.list]]
+        interest = "Snowboarding"
+
+# Main body sections
+
+    # You may use markdown in summary, details and intro fields. But don't overdose, it's resume!:)
+
+    # Summary section
+    [params.summary]
+        enable = true
+        icon = "fa-user"
+        title = "Career Profile"
+        summary = "**Summarise your career here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu."
+
+    # Experiences section
+    [params.experiences]
+        enable = true
+        icon = "fa-briefcase"
+        title = "Experiences"
+
+        [[params.jobs.list]]
+        position = "Vice President / Technical Development"
+        dates = "March 2015 - Present"
+        company = "NandoTech, Boca Raton - Florida"
+        details = ""
+
+        [[params.jobs.list]]
+        position = "Server Admin / Developer"
+        dates = "2014 - 2015"
+        company = "Health Now Networks, Boca Raton - Florida"
+        details = ""
+
+        [[params.jobs.list]]
+        position = "IT / Jr Developer"
+        dates = "2012 - 2014"
+        company = "Unique Consulting Group, Deerfield Beach - Florida"
+        details = ""
+
+    # Projects section
+    [params.projects]
+        enable = true
+        icon = "fa-archive"
+        title = "Projects"
+        intro = "**You can list your side projects or open source libraries in this section.** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus"
+
+        [[params.projects.list]]
+        title = "TestProject"
+        url = "https://github.com/arronnandotech"
+        tagline = "Details of project here"
+
+        
+
+    # Skills section
+    [params.skills]
+        enable = true
+        icon = "fa-rocket"
+        title = "Skills & Proficiency"
+
+        [[params.skills.list]]
+        skill = "C#"
+        level = "98%"
+                
+        [[params.skills.list]]
+        skill = "Javascript & jQuery"
+        level = "98%"      
+
+        [[params.skills.list]]
+        skill = "HTML5 & CSS"
+        level = "95%"
+
+        [[params.skills.list]]
+        skill = "Linux Server"
+        level = "75%"
+
+        [[params.skills.list]]
+        skill = "Windows Server"
+        level = "75%"
+
+    # Footer section
+
+    # The original template is released under the Creative Commons Attribution 3.0 License.
+    # Please keep the original attribution link when using for your own project.
+    # If you'd like to use the template without the attribution,
+    # you can check out other license options via template author's website: themes.3rdwavemedia.com
+    # 
+    # As for Hugo port you may rewrite the "Ported for..." line with setting your name below.
+
+    [params.footer]
+        copyright = "NandoTech"
