@@ -1,6 +1,6 @@
 # Page settings
 
-baseurl = "http://www.arronmayers.com"
+baseurl = "https://arronnandotech.github.io"
 languageCode = "en-us"
 title = "Arron Mayers Resume"
 theme = "hugo-orbit-theme"
