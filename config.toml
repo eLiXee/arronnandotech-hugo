@@ -32,7 +32,7 @@ disable404 = true
     [params.profile]
         name = "Arron Mayers"
         tagline = "Full Stack Developer"
-        avatar = "profile.png"
+        avatar = "arron.png"
 
     # Contact section
     [params.contact]
@@ -81,8 +81,15 @@ disable404 = true
 
         [[params.education.list]]
         degree = ""
+        college = "Brookdale Comm College"
+        dates = "2008-2010"
+        
+
+        [[params.education.list]]
+        degree = ""
         college = "Brick Memorial High School"
         dates = "2007"
+        
 
       
 
